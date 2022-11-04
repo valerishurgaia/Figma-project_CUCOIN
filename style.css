@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: manrope;
+    color: #ffffff;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    width: 100%;
+    background: #000000;
+}
+
+/* First page */
+
+.first {
+    height: 115vh;
+    background-image: url(./img/first_page_background1.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+header > h1 {
+    cursor: pointer;
+}
+
+.first h1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#dollar {
+    cursor: pointer;
+}
+
+.first ul {
+    display: flex;
+    margin-left: 490px;
+    gap:40px;
+}
+
+.first li {
+    list-style: none;
+    font-weight: 700;
+    position: relative;
+    top: 12px;
+}
+
+.first a {
+    text-decoration: none;
+}
+
+#join {
+    padding: 12px 20px ;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 56px;
+    margin-top: -12px;
+}
+
+#join a {
+    font-weight: 700;
+    font-size: 16px;
+    color:#FF00E5;
+}
+
+#join:hover {
+    background-color: rgba(255, 255, 255, 0.1) ;
+}
+
+.one {
+    text-align: center;
+}
+
+.one h1{
+    font-weight: 800;
+    font-size: 60px;
+    width: 1000px;
+    margin: 20px auto 25px auto;
+}
+
+.one p {
+    width: 520px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+}
+
+.email-join {
+    display: inline-block;
+    margin: 40px 0;
+    padding: 10px 10px;
+    border: 2px solid #EAEAEA;
+    border-radius: 56px;
+    background: none;
+}
+
+.email-join label button, .mission button {
+    float: right;
+    padding: 10px 10px;
+    margin-left: 40px;
+    background: rgba(255, 0, 229, 0.9);
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+label > button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.email-join input {
+    font-size: 16px;
+    background: none;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 10px;   
+    left: 5px;
+}
+
+.email-join input::placeholder {
+    font-family: inter;
+    color: #FFFFFF;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+#semicircle {
+    margin-left:9.5%;
+    position: relative;
+    bottom: 9px;
+}
+
+/* Second page */
+
+.second {
+    height: 120vh;
+}
+
+.two h2 {
+    font-size: 48px;
+    font-weight: 800;
+    
+    text-align: center;
+    margin: 40px auto ;
+}
+
+.two > p {
+    font-size: 24px;
+    font-weight: 400;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+
+.mission {
+    margin-top: 50px;
+    float: right;
+    position: relative;
+    right: 100px;
+}
+
+.mission p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 480px;
+    padding-left: 20px;
+    margin: 60px 0;
+    border-left: 5px solid #FF8BF399;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.second section > div > :nth-child(3) {
+    font-weight: 700;
+    border-color: #FFFFFF;
+}
+
+.mission button {
+    float: left;
+    margin: 0;
+}
+
+.two img {
+    width: 42%;
+    position: relative;
+    top: 90px;
+    left: 140px;
+}
+
+button:hover {
+    background:rgba(255, 255, 255, 0.08);
+}
+
+/* third page */
+
+.three {
+    height: 180vh;
+    text-align: center;
+}
+
+.three h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 40px auto 60px auto;
+}
+
+.three > :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    width: 75%;
+    margin: 40px auto 30px auto;
+}
+
+.advantages {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+figure {
+    width: 300px;
+    margin: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 20px ;
+}
+
+.advantages > :nth-child(3) > img {
+    width: 92px;
+}
+
+figcaption > h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+figcaption > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    width: 110%;
+    position: relative;
+    right: 10px;
+}
+
+figcaption > :last-child {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+figcaption > :last-child:hover {
+    color: #FF00E5;
+}
+
+form {
+    text-align: left;
+    width: 500px;
+    float: right;
+    position: relative;
+    right: 8%;
+    top: 50px;
+}
+
+form > h2 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+form > input {
+    font-size: 20px;
+    width: 220px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 4px;
+    
+}
+
+#email2 {
+    margin-top: 50px;
+    width: 460px;
+}
+
+form > :nth-child(3) {
+    float: right;
+    position: relative;
+    right: 40px
+}
+
+form > :last-child {
+    margin-top: 50px;
+}
+
+form > :last-child {
+    padding: 10px 10px;
+    
+    background: rgba(255, 0, 229, 0.9);
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form > :last-child:hover {
+    background-color: rgba(255, 255, 255, 0.06) ;
+}
+
+.address {
+    text-align: left;
+    width: 35%;
+    position: relative;
+    left: 10%;
+    top: 110px;
+}
+
+.address > h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px 0 20px 0;
+}
+
+.address > a, #call, #mail, #location {
+    margin-top: 20px;
+}
+
+.address > a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    bottom: 4px;
+    left: 10px;
+}
+
+.address > a:hover {
+    color: #FF00E5;
+}
+
+
+footer {
+    font-size: 14px;
+    font-weight: 700;
+    width: 80%;
+    margin: auto;
+    border-top: 2px solid rgba(255, 255, 255, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
