@@ -110,5 +110,12 @@
         </footer>
     
     </div>
+    <script>
+        let semicircle = document.getElementById('semicircle')
+        window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        semicircle.style.top = value * 0.4 + 'px';
+        })
+    </script>
 </body>
 </html>

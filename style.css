@@ -19,9 +19,9 @@ body {
 
 .first {
     height: 115vh;
-    background-image: url(./img/first_page_background1.png);
     background-position: center bottom;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 header {
@@ -144,6 +144,7 @@ input:focus::-webkit-input-placeholder {
     margin-left:9.5%;
     position: relative;
     bottom: 9px;
+    filter: drop-shadow(0px -20px 80px purple);
 }
 
 /* Second page */
